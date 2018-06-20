@@ -23,6 +23,7 @@ function displayGifs(animal) {
       //retrieves URL for image
       var stillImgURL = response.data[i].images.fixed_height_still.url;
       var movImgURL = response.data[i].images.fixed_height.url;
+      var rating = response.data[i].rating;
 
 
       // creates image 
@@ -30,6 +31,7 @@ function displayGifs(animal) {
       image.attr("data-state", "still");
       image.attr("data-animate", movImgURL);
       image.addClass("gif");
+      var p =  $("<p>").text("Rating " + rating);
       //
 
       // var movImage = $("<img>").attr("src", movImgURL);
@@ -38,6 +40,7 @@ function displayGifs(animal) {
       // Aattachs the images
       animalDiv.append(image);
       //$("#popGifs").prepend(animalDiv);
+      animalDiv.append(p);
 
       // adds to div 
     }

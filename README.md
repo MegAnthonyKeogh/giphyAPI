@@ -1,6 +1,6 @@
 Fun with Giphy's API
 
-!(Giphy Example)(volunteer copy.gif)
+!(Giphy)(gif.gif)
 
 This project accesses Giphy's API, so that you can search for gifs based on your keyword search, 
 and save those searches in the form of a button.

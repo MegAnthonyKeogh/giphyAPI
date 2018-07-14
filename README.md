@@ -1,5 +1,7 @@
 Fun with Giphy's API
 
+
+
 This project accesses Giphy's API, so that you can search for gifs based on your keyword search, and save those searches in the form of a button. 
 
 The application is working, but still needs some finishing CSS touches and UI features.

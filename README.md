@@ -1,5 +1,5 @@
 # Fun with Giphy's API
-![Gif](/iassets/gif.gif)
+![Gif](/assets/gif.gif)
 
 This project accesses Giphy's API, so that you can search for gifs based on your keyword search, 
 and save those searches in the form of a button.

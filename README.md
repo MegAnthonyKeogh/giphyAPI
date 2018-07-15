@@ -9,4 +9,4 @@ For future development of this project, I would like to add some polishing with 
 
 No dev dependencies or npm packages require. 
 
-To view the hosted website, please use this link: https://meganthonykeogh.github.io/giphyAPI/.
+To view the hosted website, please use this link:[Giphy API Fun](https://meganthonykeogh.github.io/giphyAPI/).
